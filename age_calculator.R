@@ -10,6 +10,6 @@ age_on_today <- today()
 #age_on <- ymd("yyyy-mm-dd")
 
 #time interval between dob and today
-age_int <- interval(ankur, age_on_today) #replace age_on_today with age_on if required
+age_int <- interval(dob, age_on_today) #replace age_on_today with age_on if required
 
 (age <- as.period(age_int))
